@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DSA_Book/DSA_Book.iml" filepath="$PROJECT_DIR$/DSA_Book/DSA_Book.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA_Book/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/DSA_Book/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Patterns/Patterns.iml" filepath="$PROJECT_DIR$/Patterns/Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA_Book/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/DSA_Book/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Striver DSA Sheet.iml" filepath="$PROJECT_DIR$/Striver DSA Sheet.iml" />
+    </modules>
+  </component>
+</project>
