@@ -41,7 +41,7 @@ public class NextGreaterPermutation {
         }
 
         // 2. find someone > this point(1) but is should be the smallest one=>(3)
-        for (int i=n-1;i>=0;i--){
+        for (int i=n-1;i>index;i--){
             if (arr[i]>arr[index]){
                 swap(arr,i,index);
                 break;
