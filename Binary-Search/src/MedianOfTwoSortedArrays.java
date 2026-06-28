@@ -25,6 +25,7 @@ public class MedianOfTwoSortedArrays {
     static int medianBetter(int[] a, int[] b){
         int n1 = a.length, n2 = b.length, n = n1+n2;
         int i = 0, j=0, count = 0;
+        int idx1 = n/2, idx2 = n/2-1;
         int idx1el=-1, idx2el=-1;
         while (i<n1 && j<n2){
             if (a[i]<b[j]){
