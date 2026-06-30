@@ -60,9 +60,9 @@ public class MedianOfTwoSortedArrays {
     }
 
     public static void main(String[] args) {
-        int[] arr1 = { 1, 3, 4, 7, 10, 12 };
-        int[] arr2 = { 2, 3, 6, 15 };
-        System.out.println(medianBrute(arr1,arr2));
-        System.out.println(medianBetter(arr1,arr2));
+        int[] a = { 1, 3, 4, 7, 10, 12 };
+        int[] b = { 2, 3, 6, 15 };
+        System.out.println(medianBrute(a,b));
+        System.out.println(medianBetter(a,b));
     }
 }
