@@ -63,6 +63,6 @@ public class MedianOfTwoSortedArrays {
         int[] a = {1, 3, 4, 7, 10, 12};
         int[] b = {2, 3, 6, 15};
         System.out.println(medianBrute(a,b));
-        System.out.println(medianBetter(a,b));
+        System.out.println(medianBetter(a.clone(),b.clone()));
     }
 }
