@@ -2,7 +2,6 @@ package Patterns;
 
 public class ConstantWindow {
     // given an array return max window sum of length k
-
     static int maximumSum(int[] arr, int k){
         int n = arr.length;
         int sum = 0;
@@ -20,7 +19,6 @@ public class ConstantWindow {
         }
         return maxSum;
     }
-
     public static void main(String[] args) {
         int[] arr = {-1, 2, 3, 3, 4, 5, -1};
         int k = 4;
